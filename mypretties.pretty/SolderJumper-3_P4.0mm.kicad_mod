@@ -120,18 +120,6 @@
 		(layer "F.Fab")
 		(uuid "8f0092e4-3f45-4ee6-b54e-a7519229ca1e")
 	)
-	(pad "" smd rect
-		(at -2.625 0)
-		(size 3.25 4.25)
-		(layers "F.Mask")
-		(uuid "c261f78f-dc71-4cab-b453-dc3170424ccf")
-	)
-	(pad "" smd rect
-		(at 2.5 0)
-		(size 3.25 4.25)
-		(layers "F.Mask")
-		(uuid "8a6c1590-ecd1-4b64-bc19-395f08f3c8b9")
-	)
 	(pad "1" smd rect
 		(at -3.5 0)
 		(size 2.5 4)
