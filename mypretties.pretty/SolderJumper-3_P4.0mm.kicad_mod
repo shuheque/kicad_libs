@@ -1,0 +1,159 @@
+(footprint "SolderJumper-3_P4.0mm"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "SMD Solder Jumper, 1x1.5mm Triangular Pads, 0.3mm gap, open")
+	(tags "solder jumper open")
+	(property "Reference" "REF**"
+		(at 0 -6 0)
+		(layer "F.SilkS")
+		(uuid "d4a7531a-4c5f-4620-81c4-8f781fa534cf")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SolderJumper-3_P4.0mm"
+		(at 0.725 4.5 0)
+		(layer "F.Fab")
+		(uuid "96a283ff-a439-4e18-8161-e7d327dd660c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a63acca5-d639-4ea1-9c82-a3e399cbae25")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "06486524-1ab2-44e8-aa63-808f67c9b280")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ef6fc8d1-3efa-4e66-960a-f261cc40a36b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(zone_connect 1)
+	(attr exclude_from_pos_files exclude_from_bom)
+	(fp_line
+		(start -4 3)
+		(end -3.4 3)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "069dc719-978b-4e09-b183-0e3899282397")
+	)
+	(fp_line
+		(start -3.7 2.7)
+		(end -4 3)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3b203345-b16d-4776-bf0a-aa9fd57b9a09")
+	)
+	(fp_line
+		(start -3.4 3)
+		(end -3.7 2.7)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c7af423d-8cc7-4745-9b8d-9351db132e98")
+	)
+	(fp_rect
+		(start -5 -2.5)
+		(end 5 2.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "87ed7c80-83f2-4461-82fb-a80c33ab6fa4")
+	)
+	(fp_rect
+		(start -5 -2.5)
+		(end 5 2.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "8f0092e4-3f45-4ee6-b54e-a7519229ca1e")
+	)
+	(pad "" smd rect
+		(at -2.625 0)
+		(size 3.25 4.25)
+		(layers "F.Mask")
+		(uuid "c261f78f-dc71-4cab-b453-dc3170424ccf")
+	)
+	(pad "" smd rect
+		(at 2.5 0)
+		(size 3.25 4.25)
+		(layers "F.Mask")
+		(uuid "8a6c1590-ecd1-4b64-bc19-395f08f3c8b9")
+	)
+	(pad "1" smd rect
+		(at -3.5 0)
+		(size 2.5 4)
+		(layers "F.Cu" "F.Mask")
+		(zone_connect 2)
+		(thermal_bridge_angle 45)
+		(uuid "ffcdedc8-6c8b-4092-9815-3cc6757bf9fc")
+	)
+	(pad "2" smd rect
+		(at 0 0)
+		(size 2.5 4)
+		(layers "F.Cu")
+		(zone_connect 2)
+		(thermal_bridge_angle 45)
+		(uuid "bc750487-1c24-4e8d-a3e1-2f4508e0859f")
+	)
+	(pad "3" smd rect
+		(at 3.5 0 180)
+		(size 2.5 4)
+		(layers "F.Cu" "F.Mask")
+		(zone_connect 2)
+		(thermal_bridge_angle 45)
+		(uuid "c5d78d53-5bf4-4198-80cb-6e6db0b6bfae")
+	)
+)
