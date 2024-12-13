@@ -118,8 +118,8 @@
 		(uuid "bb79d32b-be32-410e-b037-b0ccaf7982cd")
 	)
 	(fp_line
-		(start -2 -2)
-		(end 2 -2)
+		(start -1.5 -2)
+		(end 1.5 -2)
 		(stroke
 			(width 0.1)
 			(type default)
